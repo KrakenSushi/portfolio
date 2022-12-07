@@ -1,0 +1,28 @@
+div.container
+    {
+        font-family: 'Poppins', sans-serif;
+         
+    }
+div.main
+    {
+        background-color: #994299;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+    }
+.yr
+    {
+        font-size: 16px;
+    }
+
+.hover-link
+    {
+        text-decoration: none;
+        color: #000;
+    }
+.hover-link:hover
+    {
+        color: blue;
+    }
+div.container-fluid
+    {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }

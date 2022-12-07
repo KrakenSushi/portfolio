@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--JQuery Script-->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <!-- Bootstrap JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <!--Lightbox-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.css" integrity="sha512-Woz+DqWYJ51bpVk5Fv0yES/edIMXjj3Ynda+KWTIkGoynAMHrqTcDUQltbipuiaD5ymEo9520lyoVOo9jCQOCA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js" integrity="sha512-k2GFCTbp9rQU412BStrcD/rlwv1PYec9SNrkbQlo6RZCf75l6KcC3UwDY8H5n5hl4v77IDtIPwOk9Dqjs/mMBQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Iconify Icons -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <!-- Custon CSS -->
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
+    <title>Portfolio | KrakenSushi</title>
+</head>
+<body class="bg-secondary">
+    <header>
+        <!-- navbar-->        
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/images/logo.png" width="40" height="40" class="d-inline-block align-top">
+                KrakenSushi
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button><span> </span>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about_me">
+                            <i class="fa-solid fa-user"></i>
+                            About Me
+                        </a>
+                    </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">
+                        <i class="fa-solid fa-code"></i>
+                        Projects
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#education">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        Education
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-ellipsis"></i>
+                        Made with
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li>
+                        <a class="dropdown-item" href="https://getbootstrap.com/">
+                            <i class="fa-brands fa-bootstrap"></i>
+                            Bootstrap
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="https://fontawesome.com/">
+                            <i class="fa-brands fa-square-font-awesome"></i>
+                            FontAwesome
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="https://icon-sets.iconify.design/ion/">
+                            <i class="fa-solid fa-atom"></i>
+                            Ionic Icons
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="https://lokeshdhakar.com/projects/lightbox2/">
+                            <i class="fa-solid fa-lightbulb"></i>
+                            LightBox2
+                        </a>
+                    </li>
+                    </ul>
+                </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+    </header>
+    <br>
+    <a name="about_me"></a>
+    <!--body-->
+    <div class="container main container-fluid rounded about">
+        <div class="row">
+            <div class="col">
+                <div class="container">
+                    <center>
+                        <img src="assets/images/me_alt.png" class="img-fluid">
+                    </center>   
+                </div>             
+            </div>
+            <div class="col-8 p-5">
+                <div class="text-container ">
+                    <h1 class="text-white" style="text-align : justify;">Hi!</h1>
+                    <p class="text-white" style="text-align : justify;">I'm Edward Joseph V. Reyes</p>
+                    <p class="text-white" style="text-align : justify;">I'm a 4th year Bachelor of Science in Infromation student, currently studying at Central Luzon State University.</p>
+                    <p class="text-white" style="text-align : justify;">The programming languages that I can work with are PHP, C, C++, and Python. I also do bash scripting to automate the repetitive tasks that I do when using the command line. I am also capable of working with other operating systems, a change of operating system will not hinder my skills and capabilities as I have used various mainstream operating systems.</p>
+                    <h2 class="text-white">Connect with me</h2>
+                    <span class="text-white">Email: <a href="mailto:reyesej715@gmail.com">reyesej715@gmail.com</a></span><br>
+                    <span class="text-white">Phone: <a href="tel:+639998672066">+63 999 867 2066</a></span><br>
+                    <div class="container mt-4 mr-3 ">
+                        <a href="http://facebook.com/ej.reyes15" class="text-decoration-none text-reset mr-5">
+                            <iconify-icon icon="ion:logo-facebook" width="32" height="32"></iconify-icon>
+                        </a>
+                        <a href="http://twitter.com/ej.dmg" class="text-decoration-none text-reset mr-5">
+                            <iconify-icon icon="ion:logo-twitter" width="32" height="32"></iconify-icon>
+                        </a>
+                        <a href="http://instagram.com/ej_dmg" class="text-decoration-none text-reset mr-5">
+                            <iconify-icon icon="ion:logo-instagram" width="32" height="32"></iconify-icon>
+                        </a>
+                        <a href="http://github.com/KrakenSushi" class="text-decoration-none text-reset mr-5">
+                            <iconify-icon icon="ion:logo-github" width="32" height="32"></iconify-icon>
+                        </a>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div><br>
+    <a name="projects"></a>
+    <div class="container container-fluid bg-white p-5 rounded projs">
+        <h1 class="text-center">PROJECTS</h1><hr>
+        <div class="row">
+            <div class="col h-auto">
+                <h4 class="text-center mt-4 mb-5">
+                    <a href="https://krakensushi.github.io/freddy-fazbears-pizza/" class=" hover-link" title="Cliick to visit page">Freddy Fazbear's Pizza</a>
+                </h4>
+                <a href="assets/images/project1.png" data-lightbox="project1" title="Click to Enlarge Image">
+                    <img src="assets/images/project1.png" class="img-fluid rounded mx-auto d-block">
+                </a>                
+                <p class="text-justify m-3" style="text-align : justify;">
+                    This was my very first web-based project. It was a requirement for me to pass a subject back when I was a 2nd year student. It is inspired by the hit video game series, Five Nights at Freddy's
+                </p>
+            </div>
+            <div class="col h-50">
+                <h4 class="text-center m-4">
+                    <a href="https://github.com/KrakenSushi/dorm-management-system-php" class=" hover-link" title="Cliick to visit page">
+                        Ocean Knowledge Dormitory System
+                    </a>
+                </h4>
+                <a href="assets/images/project2.png" data-lightbox="project2" title="Click to Enlarge Image">
+                    <img src="assets/images/project2.png" class="img-fluid rounded mx-auto d-block">
+                </a>
+                <p class="text-justify m-2" style="text-align : justify;">
+                    This another web-based project was a requirement for me to pass a subject back when I was a 3rd year student. It is a web-based system where a dorm manager can manage the entries and exits of their tennants along with their personal infromation.
+                </p>
+            </div>
+            <div class="col h-50">
+                <h4 class="text-center  mt-4 mb-5">
+                    Android Calculator
+                </h4>
+                <a href="assets/images/project3.png" data-lightbox="project3" title="Click to Enlarge Image">
+                    <img src="assets/images/project3_alt.png" class="img-fluid rounded mx-auto d-block" style="max-height: 30%;">
+                </a>
+                <p class="text-justify m-2" style="text-align : justify;">
+                    This was my very first android project. It was a requirement for me to pass a subject back when I was a 3rd year student. Our subject instructor told us that we need to create an android calculator for that subject.
+                </p>
+            </div>
+        </div><!-- row p-3-->
+    </div><!--container p-3-->
+    <a name="education"></a> 
+    <div class="container container-fluid bg-white p-4 mt-4 mb-5 rounded educ">       
+        <h1 class="text-center">EDUCATION</h1><hr>
+        <div class="row">
+            <div class="col">
+                <h4 class="text-center mt-4 mb-5">
+                    REH Montesorri College
+                </h4>
+                <img src="https://i.ibb.co/wCKc2XQ/reh.jpg" class="img-fluid rounded mx-auto d-block" style="max-width: 50%;">
+                <h5 class="text-center m-3">
+                    Junior Highschool <br><span class="yr">2013</span>
+                </h5>
+            </div>
+            <div class="col">
+                <h4 class="text-center mt-4 mb-5">
+                    Our Lady of Fatima University
+                </h4>
+                <img src="https://i.ibb.co/SRjj3V5/shs.jpg" class="img-fluid rounded mx-auto d-block" style="max-width: 45%;">
+                <h5 class="text-center m-3">
+                    Senior Highschool <br><span class="yr">2017</span>
+                </h5>
+            </div>
+            <div class="col">
+                <h4 class="text-center mt-4 mb-5">
+                    Central Luzon State University
+                </h4>
+                <img src="https://i.ibb.co/RYvSkYy/download.png" class="img-fluid rounded mx-auto d-block" style="max-width: 50%;">
+                <h5 class="text-center m-3">
+                    College <br><span class="yr">2019</span>
+                </h5>
+            </div>
+        </div>
+    </div>
+    <div class="footer mb-3">
+        <center>
+            <span class="text-align-center text-white">
+                Edward Joseph V. Reyes <br> KrakenSushi <br>Portfolio <br> &copy;2022 
+            </span>
+        </center>
+    </div>
+</body>
+</html>
