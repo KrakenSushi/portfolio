@@ -56,11 +56,11 @@ div.container-fluid
     }
 .sns
     {
-        color: #333;
+        color: #fff;
         text-decoration: none;
         transition: 0.3s;
     }
 .sns:hover 
     {
-        color: #fff;
+        color: #333;
     }
