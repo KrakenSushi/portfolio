@@ -2,7 +2,7 @@
     {
         width: 40px;
         height: 40px;
-        background-image: ('assets/images/logo.png');
+        background-color: #333;
 
         position: absolute;
         top: 48%;
