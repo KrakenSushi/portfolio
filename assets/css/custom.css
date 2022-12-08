@@ -7,6 +7,7 @@ div.main
     {
         background-color: #678983;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+        max-width: 80%;
     }
 .yr
     {
@@ -17,6 +18,7 @@ div.main
     {
         text-decoration: none;
         color: #000;
+        transition: 0.3s;
     }
 .hover-link:hover
     {
@@ -41,4 +43,24 @@ div.container-fluid
     {
         filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
         transform: translate(0px, -5px);
+    }
+.copyright
+    {
+        color: #fff;
+        text-decoration: none;
+    }
+.copyright:hover
+    {
+        color: blue;
+        transition: 0.3s;
+    }
+.sns
+    {
+        color: #333;
+        text-decoration: none;
+        transition: 0.3s;
+    }
+.sns:hover 
+    {
+        color: #fff;
     }
